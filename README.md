@@ -8,8 +8,8 @@ A Post-Install Script for Fedora Linux 44!
 The goal of this script is minimizing some of Fedora rough points, while also setting the groundwork to avoid usage of the terminal in the future and easing it's usage if needed. Also so you can reinstall the OS really really fast.
 # You can download Fedora Linux here:
  - [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde/) (Recommended)
- - [Fedora Workstation(GNOME)](https://fedoraproject.org/workstation/) (Tested)
- - [Fedora Spins](https://fedoraproject.org/spins/) (Untested)
+ - [Fedora Workstation(GNOME)](https://fedoraproject.org/workstation/)
+ - [Fedora Spins](https://fedoraproject.org/spins/)
 
 # How to run the script:
 
