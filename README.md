@@ -6,6 +6,8 @@
 A Post-Install Script for Fedora Linux 44! 
 #### Why?
 The goal of this script is minimizing some of Fedora rough points, while also setting the groundwork to avoid usage of the terminal in the future and easing it's usage if needed. Also so you can reinstall the OS really really fast.
+#### When will it be released?
+When it's ready, which is rather soon.
 # Download Fedora Linux here:
  - [Fedora KDE Plasma Desktop](https://fedoraproject.org/kde/) (Recommended)
  - [Fedora Workstation(GNOME)](https://fedoraproject.org/workstation/)
@@ -13,7 +15,7 @@ The goal of this script is minimizing some of Fedora rough points, while also se
 
 # How to run the script:
 
- 1. [Download latest release](https://github.com/FoxCertified/foxdora-fedora-post-install-script/releases/download/release/Foxdora_44_Post-Install_Script.tar.gz)
+ 1. [Releasing soon!](#)
  2. Move ***Foxdora_44_Post-Install_Script.tar.gz*** to your Home folder
  3. Right click on ***Foxdora_44_Post-Install_Script.tar.gz*** and select Extract>Extract Here, go into the folder.
  4.  Right click on empty space and navigate to Actions>Open Terminal Here.
