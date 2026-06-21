@@ -1,10 +1,10 @@
 
 # Foxdora 44 Post-Install Script for Fedora 44
-![enter image description here](https://github.com/FoxCertified/foxdora-fedora-post-install-script/blob/main/Foxdora44.png)
+![Foxdora 44 Banner](https://github.com/FoxCertified/foxdora-fedora-post-install-script/blob/main/Foxdora44.png)
 
 ## How to run the script:
 
- 1. [Download latest release](https://github.com/FoxCertified/foxdora-fedora-post-install-script/releases/tag/release)
+ 1. [Download latest release](https://github.com/FoxCertified/foxdora-fedora-post-install-script/releases/download/release/Foxdora_44_Post-Install_Script.tar.gz)
  2. Move *emphasized text*
  3. List
  4. List
