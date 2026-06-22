@@ -5,7 +5,9 @@
 #### What?
 A Post-Install Script for Fedora Linux 44! 
 #### Why?
-The goal of this script is minimizing Fedora's rough points, while also setting the groundwork to avoid usage of the terminal in the future and easing it's usage if needed. Also so you can reinstall the OS really really fast.
+The goal of this script is minimizing Fedora's rough points with things such as the media codecs, as well as avoiding terminal usage in the future. The terminal is still tweaked for those that would wish to use it, or in the event an issue requires you to use it.
+
+I originally made this to quickly spin up new Fedora installs, often for people who didn't want to use the terminal(or even knew what one was).
 #### When will it be released?
 When it's ready, which is rather soon.
 # Download Fedora Linux here:
@@ -14,7 +16,6 @@ When it's ready, which is rather soon.
  - [Fedora Spins](https://fedoraproject.org/spins/)
 
 # How to run the script:
-
  1. [Releasing soon!](#)
  2. Move ***Foxdora_44_Post-Install_Script.tar.gz*** to your Home folder
  3. Right click on ***Foxdora_44_Post-Install_Script.tar.gz*** and select Extract>Extract Here, go into the folder.
@@ -33,9 +34,15 @@ When it's ready, which is rather soon.
  - User choice: Install the Nvidia drivers, GTX 800/900/10/16 and RTX20/30/40/50 Supported.
 
 #### Quality of Life
- - Helpful system utilities, such as BTRFS Assistant, are installed to assist in minimizing future terminal usage.
- - DNF is tweaked so that the default input for "Enter" is "Yes" in Y/N questions.
- - The user shell is changed to zsh in the terminal, enabling quality of life features such as colored syntax highlighting.
+ - Helpful system utilities are installed to assist in minimizing future terminal usage.
+   - BTRFS Assistant, for managing snapshots(backups) using the BTRFS file system.
+   - GNOME DISK, for assigning ownership of drives to yourself without the terminal.
+   - 
+ - Several Terminal Adjustments:
+   - Shell is defaulted to ZSH, which gives the terminal colored syntax highlighting and auto completion.
+   - DNF is tweaked so that the default input for Enter is "Yes" in Y/N questions.
+   - Aliases for DNF added to zsh(and Bash!), they are listed here
+   - The [FoxFetch](https://github.com/FoxCertified/foxfetch-theme) Fastfetch theme is installed.
 
 #### Performance 
  - The graphics card cache is increased to 10GB to reduce shader stutter, this is best paired with turning off vulkan pre-compile in Steam.
@@ -44,7 +51,7 @@ When it's ready, which is rather soon.
 
  - Installs the following applications:
    - [Zsh](https://www.zsh.org), [Zsh Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting), [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
-   - [BTRFS Assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant), [GNOME Disk](https://apps.gnome.org/DiskUtility/), [GParted](https://gparted.org)
+   - [BTRFS Assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant), [GNOME Disk](https://apps.gnome.org/DiskUtility/)
    - [Bazaar](https://github.com/bazaar-org/bazaar), [Flatseal](https://github.com/tchx84/flatseal), [Gearlever](https://github.com/mijorus/gearlever)
    - [Kate Text Editor](https://kate-editor.org)
  - User Choice: You can install the following applications:
@@ -69,10 +76,17 @@ When it's ready, which is rather soon.
    - [GNU Image Manipulation Program(GIMP)](https://www.gimp.org)
    - [RapidRAW](https://github.com/cybertimon/rapidraw)
 
-## Example
+## Examples
 
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-  
+### Terminal aliases
+#### DNF Management:
+ - dnf search [search term] ---> foxse [search term]
+ - sudo dnf install [program name] ---> foxin [program name]
+ - sudo dnf remove [program name] ---> foxrm [program name]
+ - sudo dnf reinstall 
+
+### FastFetch  Theme
+![enter image description here](https://github.com/FoxCertified/foxfetch-theme/blob/main/Foxfetch%20with%20Logo.png?raw=true)
 
 ## Project status
 
