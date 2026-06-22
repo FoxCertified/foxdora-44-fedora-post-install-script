@@ -117,3 +117,6 @@ When it's ready, which is rather soon.
 ## Project status
 
 I will keep working on this as long as I keep using Fedora :)
+
+## WARNING
+These scripts are provided as-is, I can not be held responsible for them causing any system breakage.
