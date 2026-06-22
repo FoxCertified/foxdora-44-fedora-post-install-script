@@ -87,7 +87,7 @@ When it's ready, which is rather soon.
 	 - [OBS Studio](https://obsproject.com) - recording and broadcasting software.
 	 - [Easy Effects](https://github.com/wwmm/easyeffects) - can filter speaker ouput and microphone input for voice calls. Similar to Nvidia Broadcast.
 	 - [Video Downloader](https://github.com/Unrud/video-downloader) - easy downloading of videos you find on the internet, runs on your machine!
-	 - [MullvadVPN](https://mullvad.net) - a low-cast VPN service. €5/month, including VAT.
+	 - [MullvadVPN](https://mullvad.net) - a low-cost VPN service. €5/month, including VAT.
 
 ## Examples
 
