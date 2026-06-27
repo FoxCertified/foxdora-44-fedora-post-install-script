@@ -23,6 +23,18 @@ sudo dnf -y group upgrade core
   echo "Latest updates installed"
   sleep 3
 
+##Nvidia Drivers
+echo ""
+echo "Are you using a Nvidia Graphics Card?"
+set -- $(locale LC_MESSAGES)
+yesexpr="$1"; noexpr="$2"; yesword="$3"; noword="$4"
+while true; do
+    read -p "(${yesword} / ${noword})? " yn
+    if [[ "$yn" =~ $yesexpr ]]; then echo "Running Nvidia Script...";./scripts/nvidia-graphics.sh; break; fi
+    if [[ "$yn" =~ $noexpr ]]; then echo "Running MESA Script...";./scripts/mesa-shader-boost.sh;break; fi
+    echo "Answer ${yesword} / ${noword}."
+done
+
 #Fedora
 sudo dnf -y group install multimedia
 sudo dnf install gstreamer1-plugin-openh264 mozilla-openh264
@@ -70,18 +82,6 @@ chsh -s $(which zsh)
   echo ""
   echo "Defaulted shell to zsh for colored syntax highlighting in the terminal"
   sleep 3
-
-##Nvidia Drivers
-echo ""
-echo "Are you using a Nvidia Graphics Card?"
-set -- $(locale LC_MESSAGES)
-yesexpr="$1"; noexpr="$2"; yesword="$3"; noword="$4"
-while true; do
-    read -p "(${yesword} / ${noword})? " yn
-    if [[ "$yn" =~ $yesexpr ]]; then echo "Running Nvidia Script...";./scripts/nvidia-graphics.sh; break; fi
-    if [[ "$yn" =~ $noexpr ]]; then echo "Running MESA Script...";./scripts/mesa-shader-boost.sh;break; fi
-    echo "Answer ${yesword} / ${noword}."
-done
 ###BASIC SCRIPT
 
 ##Gaming Apps
