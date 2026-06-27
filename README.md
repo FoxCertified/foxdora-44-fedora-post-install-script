@@ -1,3 +1,4 @@
+
 # WORK IN PROGRESS, SUBJECT TO CHANGE
 # Foxdora 44, a post-install script for Fedora 44
 ![Foxdora 44 Banner](https://github.com/FoxCertified/foxdora-fedora-post-install-script/blob/main/Foxdora44.png?raw=true)
@@ -40,7 +41,6 @@ When it's ready, which is rather soon.
 
 ### Quality of Life
  - Helpful system utilities are installed to assist in minimizing future terminal usage.
-	 - Bazaar, a dedicated app store for Flatpak applications.
 	 - Flatseal, for adjusting Flatpak application permissions.
 	 - Gearlever, for AppImage management.
 	 - GNOME DISK, for assigning ownership of drives to yourself without the terminal.
@@ -61,19 +61,18 @@ When it's ready, which is rather soon.
 		 - [Fastfetch](https://github.com/fastfetch-cli/fastfetch) - displays system specs and other information.
 	 - [BTRFS Assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant) - BTRFS management software.
 	 - [GNOME Disk](https://apps.gnome.org/DiskUtility/) - the GNOME Partition Manager.
-	 - [Bazaar](https://github.com/bazaar-org/bazaar) - Flatpak App Store
-		 - [Flatseal](https://github.com/tchx84/flatseal) - Flatpak Permission management.
+	 - [Flatseal](https://github.com/tchx84/flatseal) - Flatpak Permission management.
 	 - [Gearlever](https://github.com/mijorus/gearlever) - AppImage management.
 	 - [Kate Text Editor](https://kate-editor.org) - Simple and Advanced text editor. Replaces Kwrite in KDE Plasma installs.
  - User Choice, install all listed gaming applications and tools:
 	 - [Steam](https://store.steampowered.com) - for Steam games.
+		 - [Proton Plus](https://protonplus.vysp3r.com) - Easy management for Proton and Steam launch commands.
 	 - [Faugus Launcher](https://github.com/Faugus/faugus-launcher) - for non-Steam games.
 	 - [Prism Launcher](https://prismlauncher.org) - A minecraft launcher.
 	 - [Discord](https://discord.com) - Chatting Application.
-	 - [Gamemode](https://github.com/feralinteractive/gamemode) - Automates a few nice to haves for gaming on Linux.
+	 - [Gamemode](https://github.com/feralinteractive/gamemode) - Increases system priority for games and prevents automatic suspend/screen locking on desktop experiences without controller detection.
 	 - [Mangohud](https://github.com/flightlessmango/Mangohud) - Performance overlay and FPS limiter, similar to [RivaTuner Statistics Server](https://www.guru3d.com/page/rivatuner-rtss-homepage/).
 		 - [Goverlay](https://github.com/benjamimgois/goverlay) - GUI for setting up mangohud.
-	 - [Proton Plus](https://protonplus.vysp3r.com) - Easy management for Proton and Steam launch commands.
  - User Choice, You can choose to install the following creative applications:
 	 - [KdenLive](https://kdenlive.org) - Non-linear video editor.
 	 - [Audacity](https://www.audacityteam.org) - Audio recording and editing.
@@ -87,6 +86,7 @@ When it's ready, which is rather soon.
 	 - [OBS Studio](https://obsproject.com) - recording and broadcasting software.
 	 - [Easy Effects](https://github.com/wwmm/easyeffects) - can filter speaker ouput and microphone input for voice calls. Similar to Nvidia Broadcast.
 	 - [Video Downloader](https://github.com/Unrud/video-downloader) - easy downloading of videos you find on the internet, runs on your machine!
+	 - [openRGB](https://openrgb.org) - Control the RGB of your computer and other select devices.
 	 - [MullvadVPN](https://mullvad.net) - a low-cost VPN service. €5/month, including VAT.
 
 ## Examples
